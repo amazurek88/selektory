@@ -1,0 +1,56 @@
+header {
+    background-color: gray;
+    padding-bottom: 10px;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+}
+
+ul {
+    text-align: center;
+}
+
+li > a {
+    color: white;
+    font-family: Verdana;
+}
+
+ul li {
+    display: inline;
+    margin-left: 5px;
+}
+
+#header-gallery {
+    width: 100%;
+    height: 200px;
+    background: url(https://cdn.pixabay.com/photo/2020/04/15/01/24/gaudi-5044804_960_720.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.item {
+    font-weight: bold;
+}
+
+main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p + ol {
+    background-color: azure;
+    padding: 20px;
+    font-family: Verdana;
+}
+
+ol ~ p {
+    font-style: italic;
+}
+
+main h1, main p {
+    font-family: Verdana;
+    text-align: justify;
+}
